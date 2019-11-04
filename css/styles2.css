@@ -1,0 +1,163 @@
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+
+button {
+  background-color: #D08718;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 30%;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+button:focus {
+  background-color: #C9AA78;
+  outline: none;
+}
+
+.header {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.24);
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.headerText {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  right: 10%;
+}
+
+.headerImage {
+  height: 100%;
+}
+
+.buttonGroup {
+  background-color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  font-size: 0;
+  margin-left: 40%;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 60%;
+}
+
+.content {
+  margin-left: 42.5%;
+  margin-right: 2.5%;
+  margin-top: 120px;
+}
+
+.item {
+  padding: 20px 30px 20px 50px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.specialItem {
+  background-color: #D08718;
+  color: white;
+}
+
+.itemImage {
+  border-radius: 20px;
+  float: right;
+  margin: 20px;
+  width: 50%;
+}
+
+.footer {
+  text-align: center;
+  margin-left: 40%;
+}
+
+.imageFooter {
+  border-radius: 50%;
+  content: url("../images/fox7b.jpg");
+  width: 200px;
+  height: 200px;
+  margin: 2rem;
+  vertical-align: middle;
+}
+
+.imageLinks{
+  padding: 2.5% 10%;
+  font-size: 12px;
+}
+
+a{
+  color: #D08718;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    width: 100%;
+    position: static;
+    top: 0;
+    left: 0;
+  }
+
+  .headerImage {
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .headerText {
+    position: static;
+    text-align: center;
+    color: #D08718;
+  }
+
+  button {
+    width: 40%;
+  }
+
+  .buttonGroup {
+    margin-left: 0;
+    position: static;
+    width: 100%;
+  }
+
+  .content {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .footer {
+    margin-left: 0;
+  }
+}
+
+/* end media */

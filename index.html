@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/styles1.css" id="myCSS">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Dancing+Script|Jomolhari|Lily+Script+One|Lobster|Montserrat|Pacifico|Questrial|Raleway|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+  <title>Style Me</title>
+</head>
+
+<body>
+
+  <div class="header">
+    <img src="images/fox1.jpg" alt="fox" class="headerImage">
+    <div class="headerText">
+      <h1>Foxy CSS Styling</h1>
+      <h3>Click on the buttons to see this page wearing different styles.</h3>
+    </div>
+  </div>
+
+  <div class="buttonGroup" id="buttonsDiv">
+    <button type="button" name="button" onclick="changeCSS(1)">Style 1</button>
+    <button type="button" name="button" onclick="changeCSS(2)">Style 2</button>
+    <button type="button" name="button" onclick="changeCSS(3)">Style 3</button>
+    <button type="button" name="button" onclick="changeCSS(4)">Style 4</button>
+    <button type="button" name="button" onclick="changeCSS(5)">Style 5</button>
+    <button type="button" name="button" onclick="changeCSS(6)">None</button>
+    <!-- <p id="hrefvalue">hello</p> -->
+  </div>
+
+  <div class="content">
+    <div class="item">
+      <img src="images/fox2.jpg" alt="fox" class="itemImage">
+      <h2>Meditation Fox</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi.
+      </p>
+    </div>
+    <div class="item specialItem">
+      <img src="images/fox4.jpg" alt="fox" class="itemImage">
+      <h2>Pretty Fox</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi.
+      </p>
+    </div>
+    <div class="item">
+      <img src="images/fox5.jpg" alt="fox" class="itemImage">
+      <h2>Tired Fox</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi.
+      </p>
+    </div>
+    <div class="item">
+      <img src="images/fox6.jpg" alt="fox" class="itemImage">
+      <h2>Shy Fox</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium vulputate sapien nec sagittis aliquam malesuada. Maecenas pharetra convallis posuere morbi.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <img src="images/fox7.jpg" alt="fox" class="imageFooter">
+    <p class="imageLinks">Images courtesy of:
+      <a href="https://pixabay.com/users/12019-12019/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1883658">David Mark</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1883658">Pixabay</a>,
+      <a href="https://pixabay.com/users/Pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1284512">Pexels</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1284512">Pixabay</a>,
+      <a href="https://pixabay.com/users/AlainAudet-631535/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=715588">Alain Audet</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=715588">Pixabay</a>,
+      <a href="https://pixabay.com/users/AlainAudet-631535/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=710454">Alain Audet</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=710454">Pixabay</a>,
+      <a href="https://pixabay.com/users/Shingo_No-1039647/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=967657">Shingo_No</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=967657">Pixabay</a>,
+      <a href="https://pixabay.com/users/winterseitler-4614559/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2093053">winterseitler</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2093053">Pixabay</a>,
+      <a href="https://pixabay.com/users/skeeze-272447/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3848307">skeeze</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3848307">Pixabay</a>
+    </p>
+    <p id="copyright"></p>
+    <script>
+      document.getElementById("copyright").innerHTML = "© Copyright Freeda Moore " + new Date().getFullYear();
+    </script>
+  </div>
+
+  <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>

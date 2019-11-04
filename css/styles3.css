@@ -1,0 +1,129 @@
+body {
+  background-color: white;
+  font-family: 'Crimson Text', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #16c79e;
+  font-family: 'Questrial', sans-serif;
+  font-size: 50px;
+}
+
+h2{
+  font-family: 'Questrial', sans-serif;
+}
+
+h3{
+  font-family: 'Dancing Script', cursive;
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Questrial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+button:focus {
+  background-color: white;
+  color: #16c79e;
+  outline: none;
+}
+
+.buttonGroup {
+  background-color: white;
+  font-size: 0;
+  margin-bottom: 20px;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  margin-top: 100px;
+}
+
+.headerImage {
+  display: none;
+}
+
+/* Clear floats after the columns */
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imageFooter {
+  display: none;
+}
+
+.item {
+  float: left;
+  margin: 20px;
+  padding-top: 20px;
+  width: 20%;
+}
+
+.specialItem {
+  background-color: #16c79e;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  transform: skew(-5deg, -5deg);
+}
+
+.specialItem p, .specialItem h2, .specialItem img{
+  transform: skew(5deg, 5deg);
+}
+
+.itemImage {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.footer {
+  text-align: center;
+}
+
+.imageLinks{
+  padding: 2.5% 10%;
+  font-size: 12px;
+}
+
+a{
+  color: #16c79e;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .item {
+    width: 30%;
+    padding: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  button {
+    width: 15%;
+    margin-right: 0;
+  }
+
+  .item {
+    width: 80%;
+    padding: 5%;
+  }
+}
