@@ -26,9 +26,7 @@ function fixButtonGroup() {
   console.log("pageYOffset: " + window.pageYOffset);
   if (window.pageYOffset > btnGroupTop) {
     document.getElementById("buttonsDiv").classList.add("fixedTop");
-    document.getElementById("buttonsDiv").classList.remove("buttonGroup");
   } else {
     document.getElementById("buttonsDiv").classList.remove("fixedTop");
-    document.getElementById("buttonsDiv").classList.add("buttonGroup");
   }
 }
