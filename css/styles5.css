@@ -134,14 +134,17 @@ body{
 }
 
   button {
-    width: 100%;
+    width: 30%;
     margin-right: 0;
   }
 
   .buttonGroup {
+    position: fixed;
+    font-size: 0;
+    opacity: 1;
+    top: 0;
     margin: 0;
-    /* position: static; */
-    width: 80%;
+    width: 100%;
   }
 
   .item {
