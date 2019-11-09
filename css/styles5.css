@@ -135,18 +135,11 @@ body{
 }
 
   button {
+    display: block;
     width: 30%;
     margin-right: 0;
   }
 
-  .buttonGroup {
-    position: fixed;
-    font-size: 0;
-    opacity: 1;
-    top: 0;
-    margin: 0;
-    width: 100%;
-  }
 
   .item {
     width: 80%;
